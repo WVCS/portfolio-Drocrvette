@@ -1,8 +1,8 @@
-body.title {
+.title {
   background-color: #b1cde3;
   
 }
-h1.left {
+.left {
   float: left;
   background-color:#335482;
   font-size: 85px;
@@ -13,5 +13,42 @@ h1.left {
   padding-left: 100px;
   padding-right: 400px;
   font-family: Calibri;
-  border-radius: 100px;
+  border-radius: 25%;  
+  text-decoration: none;
+}
+.lower1 {
+  background-color: black;
+  font-family: Calibri;
+}
+.link-no {
+  color: white;
+  font-family: Calibri;
+  text-decoration: none;
+}
+.link-no:hover {
+ text-decoration: none;
+  color: white;
+}
+.lower2 {
+   font-family: Calibri;
+}
+.Box1 {
+  font-size: 25px;
+  font-family: Calibri;
+  border: 2px solid white;
+  margin: 0px 0px;
+  background-color:#1e2c5c;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-decoration: none;
+}
+p.white {
+  color: white;
+}
+h1.white {
+  color: white;
 }
