@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,7 +8,11 @@ html {
 	  background-attachment: fixed;
 	  background-size: cover;
 	  background-repeat: none;
-	  
+}
+hr {
+	  border: none;
+    height: 3px;
+    background-color: #333;
 }
 .left h1{
 	float: left;
@@ -32,21 +38,22 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 .left {
   float: left;
-  background-color:#0FA200;
+  background-color:#218B60;
   font-size: 100px;
   color:#F7F7F2;
   margin: 100px 100px;
+  margin-bottom: 400px;
   padding-top: 200px;
   padding-bottom: 500px;
   padding-left: 100px;
   padding-right: 400px;
 font-family: 'Open Sans Condensed', sans-serif;
   text-decoration: none;
-    box-shadow: 30px 30px 25px #42783D;
+    box-shadow: 30px 30px 25px gray ;
 overflow: hidden;
 }
 .lower1 {
-  background-color: #16750C;
+  background-color: #6AB52B;
 font-family: 'Quicksand', sans-serif;
 padding-bottom: 300px;
 }
@@ -139,8 +146,83 @@ font-family: 'Playfair Display', serif;
   box-shadow: 20px 20px 15px #42783D;
   transition: 1.3s;
 }
-img {
+img.top {
 	max-width: 100%;
 	height: auto;
 	margin: 0 0 10px 0;
+	border-radius: 25%;	
+}
+
+.pizza {
+  max-width: 800px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px 10px #2c5236;
+  display: flex;
+  text-decoration: none;
+  }
+  .pizza--1 {float:left;}
+    .pizza--2 {float:right;}
+
+.pizza__herro {
+  flex: 0 0 45%;
+}
+.pizza__img {
+  width: 100%;
+  height: 100%;
+}
+.pizza__content {
+  flex: 1;
+  background-color: white;
+  padding: 35px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.pizza__price {
+  flex: 0 0 50px;
+  background: linear-gradient(to bottom, #5ec95c, #6969);
+  color: white;
+  writing-mode: vertical-rl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pizza__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.pizza__heading {
+  font-size: 20px;
+  /*flex: 1;*/
+  margin-right: auto;
+}
+.pizza__tag {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 2px 7px 10px 12px;
+  margin-left: 50px;
+  border-radius: 100px;
+}
+.pizza__tag--1 { background-color: #67b26f; }
+.pizza__tag--2 { background-color: #6969; }
+.pizza__description {
+  font-size: 14px;
+}
+.pizza__details {
+  display: flex;
+  margin-top: auto;
+}
+.pizza__detail {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
