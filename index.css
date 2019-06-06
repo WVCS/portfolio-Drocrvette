@@ -1,10 +1,34 @@
+#myBtn {
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #6969;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 50%;
+  font-family: 'Quicksand', sans-serif;
+  transition: 1.3s;
+
+}
+
+#myBtn:hover {
+  background-color: #25C512;
+  box-shadow: 20px 20px 15px #42783D;
+  transition: 1.3s;
+}
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 .title {
-      background-image: url(morocco-blue.png);
+      background-image: url(../image.exe/morocco-blue.png);
 	  background-attachment: fixed;
 	  background-size: cover;
 	  background-repeat: none;
@@ -56,6 +80,7 @@ overflow: hidden;
   background-color: #6AB52B;
 font-family: 'Quicksand', sans-serif;
 padding-bottom: 300px;
+height: auto;
 }
 .link-no {
   color: white;
@@ -118,34 +143,7 @@ font-family: 'Playfair Display', serif;
  text-decoration: none;
   color: black;
 }
-@keyframes top-an {
-  0% { margin: -500px 100px; opacity: 0; }
-  100% {margin: 25px 100px; opcaity: 1; }
-}
-#myBtn {
-  display: flex;
-  position: fixed;
-  bottom: 30px;
-  right: 40px;
-  z-index: 99;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background-color: #6969;
-  color: white;
-  cursor: pointer;
-  padding: 25px;
-  border-radius: 50%;
-  font-family: 'Quicksand', sans-serif;
-  transition: 1.3s;
 
-}
-
-#myBtn:hover {
-  background-color: #25C512;
-  box-shadow: 20px 20px 15px #42783D;
-  transition: 1.3s;
-}
 img.top {
 	max-width: 100%;
 	height: auto;
@@ -160,10 +158,34 @@ img.top {
   box-shadow: 0 30px 80px 10px #2c5236;
   display: flex;
   text-decoration: none;
+  margin-bottom: 1000px;
+  margin-top: 100px;
   }
-  .pizza--1 {float:left;}
-    .pizza--2 {float:right;}
+  .pizza--1 {
+	  float:left;
+	  	margin-top: 200px;
+	margin-bottom: 200px;
 
+	  }
+    .pizza--2 {
+		float:right;
+	margin-top: 600px;
+		margin-bottom: 50px;
+margin-right:-200px;
+	}
+ .pizza--3 {
+	  float: left;
+	  	margin-top: 1000px;
+	margin-bottom: 200px;
+	margin-left: -800px;
+
+	  }
+    .pizza--4 {
+		float:right;
+	margin-top: 1400px;
+		margin-bottom: 500px;
+margin-right: -800px;
+	}
 .pizza__herro {
   flex: 0 0 45%;
 }
@@ -225,4 +247,8 @@ img.top {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+h1.transition {
+	border: 2px solid black;
+	box-shadow: 3px 3px 1px black;
 }
