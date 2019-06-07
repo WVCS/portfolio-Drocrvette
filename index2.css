@@ -1,0 +1,177 @@
+/** GENERAL **/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  padding: 50px;
+  background-color: coral;
+  font-family: "Hind", serif;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px;
+  background-color: white;
+  -moz-box-shadow: 0px 0px 40px 0px #d85120;
+  -webkit-box-shadow: 0px 0px 40px 0px #d85120;
+  -o-box-shadow: 0px 0px 40px 0px #d85120;
+  box-shadow: 0px 0px 40px 0px #d85120;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#d85120, Direction=NaN, Strength=20);
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 1;
+  color: coral;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 1.4;
+  color: grey;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  color: coral;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  height: 100%;
+}
+
+hr {
+  height: 1px;
+  margin: 40px 0;
+  background-color: lightgrey;
+  border: none;
+}
+
+
+/** HEADER **/
+header {
+  display: flex;
+}
+
+.header-profile-picture {
+  width: 20%;
+  height: 160px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header-profile-infos {
+  width: 80%;
+  padding-left: 50px;
+}
+
+
+/** SECTIONS **/
+.section-desc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-desc div, .section-desc-small {
+  width: 50%;
+  padding: 20px;
+}
+
+.section-infos-supp {
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+	max-width: 100%;
+	
+}
+
+/** MEDIA QUERIES **/
+@media (max-width: 750px) {
+  h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 2em;
+  }
+  
+  ul {
+    text-align: center;
+  }
+  
+  header {
+    flex-direction: column;
+  }
+  
+  .header-profile-picture {
+    width: 160px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .header-profile-infos {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .section-desc {
+    flex-direction: column;
+  }
+  
+  .section-desc div, .section-desc-small {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:450px) {
+.section-desc div, .section-desc-small {
+    width: 100%;
+    padding: 0;
+  }
+  body {
+	  width: 100%
+  }
+}
