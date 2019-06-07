@@ -28,7 +28,7 @@ html {
   scroll-behavior: smooth;
 }
 .title {
-      background-image: url(../image.exe/morocco-blue.png);
+      background-image: url(morocco-blue.png);
 	  background-attachment: fixed;
 	  background-size: cover;
 	  background-repeat: none;
